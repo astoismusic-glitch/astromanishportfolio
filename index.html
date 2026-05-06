@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AstroManish | Official</title>
+  <meta name="description" content="Official website of AstroManish, Mohali based music producer, rapper, mixing and mastering engineer.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Inter:wght@400;500;700;800&family=Kalam:wght@400;700&family=Playfair+Display:wght@600;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-left" aria-hidden="true"></div>
+  <div class="ambient ambient-right" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top">AstroManish</a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#upcoming">Mixtape</a>
+      <a href="#catalog">Catalog</a>
+      <a href="#videos">Videos</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="donate-button compact" type="button" data-donate>Donate</button>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero-copy reveal">
+        <p class="kicker">Music Producer | Mixing & Mastering Engineer</p>
+        <h1>AstroManish</h1>
+        <p class="hero-text">A Mohali based music producer, rapper, mixing and mastering engineer with a heavy taste in trap, a touch of EDM, and sad cinematic melodies built for late nights.</p>
+        <div class="hero-actions">
+          <a class="profile-link youtube" href="https://youtube.com/@astroismusic?si=TfTff-j5juh5Ptkw" target="_blank" rel="noreferrer">YouTube</a>
+          <a class="profile-link spotify" href="https://open.spotify.com/artist/1jpZ9Rmt16ImOSEJRJj5rn?si=GosWbvUOSY21ydstdjEBnw" target="_blank" rel="noreferrer">Spotify</a>
+          <a class="profile-link apple" href="https://music.apple.com/in/artist/astromanish/1723091621" target="_blank" rel="noreferrer">Apple Music</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal" aria-hidden="true">
+        <div class="signal-box">
+          <span>Mixtape Signal</span>
+          <div class="signal-track"><b>MEIN SE MEIN TAK</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="upcoming" class="section mixtape-section">
+      <div class="section-heading reveal">
+        <p class="kicker">Upcoming Project</p>
+        <h2>MEIN SE MEIN TAK</h2>
+        <p>A 32 track conceptual mixtape about a person moving through past, present, and future.</p>
+      </div>
+      <div class="track-wall-card reveal">
+        <div class="track-wall-top">
+          <div>
+            <span class="wall-label">Next Release</span>
+            <h3>Mixtape Track Wall</h3>
+          </div>
+          <span class="wall-count">32 Tracks</span>
+        </div>
+        <div class="track-wall" id="trackWall" aria-hidden="true"></div>
+      </div>
+      <div class="tracklist reveal" id="tracklist" aria-label="Upcoming mixtape track list"></div>
+    </section>
+
+    <section class="section player-section">
+      <div class="section-heading reveal">
+        <p class="kicker">Private Signal</p>
+        <h2>Unreleased Tracks</h2>
+      </div>
+      <button class="tab-button reveal" id="toggleUnreleased" type="button">Unreleased Track</button>
+      <div class="unreleased-panel reveal" id="unreleasedPanel" hidden></div>
+    </section>
+
+    <section class="section donate-section reveal">
+      <div>
+        <p class="kicker">Support</p>
+        <h2>Support your underground artist</h2>
+        <p>Every donation helps AstroManish keep building independent music, visuals, mixes, masters, and future projects.</p>
+      </div>
+      <button class="donate-button large" type="button" data-donate>Donate / UPI</button>
+    </section>
+
+    <section class="section about-section">
+      <div class="about-card reveal">
+        <p class="kicker">About Artist</p>
+        <h2>Hindi poetry, dark melody, trap pressure.</h2>
+        <p>AstroManish is a Hindi poetry based musician with knowledge across genres and a self-made indie approach: music production, mix and master, rap, writing, distribution, and creative direction. His sound is for listeners who connect with dark melodies, dark lyrics, heavy drums, smooth flows, and emotional honesty.</p>
+        <p>Based in Mohali, originally from Sultanpur, Uttar Pradesh, and born in Ludhiana, Punjab in 2004, AstroManish brings a strong creative perspective at a young age. His upcoming mixtape carries three years of work, learning, and lived emotion.</p>
+      </div>
+    </section>
+
+    <section class="section profile-signals reveal">
+      <div class="section-heading">
+        <p class="kicker">Artist Profile</p>
+        <h2>Current signal</h2>
+      </div>
+      <div class="signal-grid">
+        <article>
+          <span>New Release</span>
+          <h3>Swapan Nagri</h3>
+          <p>AstroManish feat. YNG Anand • 2026</p>
+        </article>
+        <article>
+          <span>Catalog Energy</span>
+          <h3>Dark melody, Hindi writing, trap drums</h3>
+          <p>Recent releases include Twisted Love, Samurai, Palak Jhapakte, No Regrets, Narayana, and Sheher Mohali.</p>
+        </article>
+        <article>
+          <span>Listener Entry Points</span>
+          <h3>Ik Dashak • Modern Poetry • Alvida</h3>
+          <p>For new listeners, start with the poetic records, then move into the heavier mixtape side.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="catalog" class="section catalog-section">
+      <div class="section-heading reveal">
+        <p class="kicker">Music Catalog</p>
+        <h2>Projects</h2>
+      </div>
+      <div class="project-tabs reveal" role="tablist" aria-label="Project categories">
+        <button class="project-tab active" data-category="mixtape" type="button">Mixtapes</button>
+        <button class="project-tab" data-category="ep" type="button">EP</button>
+        <button class="project-tab" data-category="single" type="button">Singles</button>
+      </div>
+      <div class="project-stage reveal" id="projectStage">
+        <div class="weather-layer" aria-hidden="true"></div>
+        <div class="project-grid" id="projectGrid"></div>
+      </div>
+    </section>
+
+    <section class="section stream-section reveal">
+      <div class="stream-copy">
+        <p class="kicker">Gold Stream Panel</p>
+        <h2>Top played tracks</h2>
+        <p>Preview the listening mood, then jump into AstroManish on Spotify or Apple Music.</p>
+      </div>
+      <div class="stream-panels" id="streamPanels">
+        <article class="stream-player spotify-player">
+          <div class="stream-head">
+            <img src="assets/pics/photo-2.png" alt="AstroManish artist profile">
+            <div>
+              <span>Spotify</span>
+              <h3>AstroManish</h3>
+              <p>Top tracks</p>
+            </div>
+            <a href="https://open.spotify.com/artist/1jpZ9Rmt16ImOSEJRJj5rn?si=GosWbvUOSY21ydstdjEBnw" target="_blank" rel="noreferrer">Open</a>
+          </div>
+          <div class="stream-track-list" data-platform="spotify"></div>
+        </article>
+        <article class="stream-player apple-player">
+          <div class="stream-head">
+            <img src="assets/pics/photo-3.jpg" alt="AstroManish music artwork">
+            <div>
+              <span>Apple Music</span>
+              <h3>AstroManish</h3>
+              <p>Featured plays</p>
+            </div>
+            <a href="https://music.apple.com/in/artist/astromanish/1723091621" target="_blank" rel="noreferrer">Open</a>
+          </div>
+          <div class="stream-track-list" data-platform="apple"></div>
+        </article>
+        <button class="donate-button green stream-donate" type="button" data-donate>Donate</button>
+      </div>
+    </section>
+
+    <section class="section platforms-section reveal">
+      <div class="platform-copy">
+        <p class="kicker">Stream Everywhere</p>
+        <h2>AstroManish profiles</h2>
+        <p>Open the official profiles and platform searches from one place.</p>
+      </div>
+      <div class="spotify-profile-embed">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/1jpZ9Rmt16ImOSEJRJj5rn?utm_source=generator&theme=0" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="AstroManish Spotify profile"></iframe>
+      </div>
+      <div class="platform-grid">
+        <a href="https://open.spotify.com/artist/1jpZ9Rmt16ImOSEJRJj5rn?si=GosWbvUOSY21ydstdjEBnw" target="_blank" rel="noreferrer"><span>SP</span>Spotify</a>
+        <a href="https://music.apple.com/in/artist/astromanish/1723091621" target="_blank" rel="noreferrer"><span>AM</span>Apple Music</a>
+        <a href="https://youtube.com/@astroismusic?si=TfTff-j5juh5Ptkw" target="_blank" rel="noreferrer"><span>YT</span>YouTube</a>
+        <a href="https://music.amazon.in/artists/B0CRBDTPHM/astromanish" target="_blank" rel="noreferrer"><span>AZ</span>Amazon Music</a>
+        <a href="https://music.youtube.com/search?q=AstroManish" target="_blank" rel="noreferrer"><span>YM</span>YouTube Music</a>
+        <a href="https://gaana.com/search/AstroManish" target="_blank" rel="noreferrer"><span>GA</span>Gaana</a>
+        <a href="https://www.jiosaavn.com/search/astromanish" target="_blank" rel="noreferrer"><span>JS</span>JioSaavn</a>
+        <a href="https://wynk.in/music/search/AstroManish" target="_blank" rel="noreferrer"><span>WK</span>Wynk</a>
+      </div>
+    </section>
+
+    <section id="videos" class="section video-section">
+      <div class="section-heading reveal">
+        <p class="kicker">Music Videos</p>
+        <h2>Watch</h2>
+      </div>
+      <div class="video-layout reveal">
+        <div class="video-list" id="videoList"></div>
+        <div class="video-player" id="videoPlayer">
+          <p>Select a music video</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services-section reveal">
+      <div>
+        <p class="kicker">Services</p>
+        <h2>Work with AstroManish</h2>
+      </div>
+      <div class="services-grid">
+        <span>Music Production</span>
+        <span>Mixing</span>
+        <span>Mastering</span>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section reveal">
+      <div class="contact-copy">
+        <p class="kicker">Contact</p>
+        <h2>Work with me</h2>
+        <p>Production, mix, master, custom sound, and collaborations are available.</p>
+        <div class="contact-actions">
+          <a class="contact-chip mail-chip" href="mailto:astoismusic@gmail.com">
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 6h16v12H4z"/><path d="m4 7 8 6 8-6"/></svg>
+            </span>
+            astoismusic@gmail.com
+          </a>
+          <a class="contact-chip insta-chip" href="https://www.instagram.com/manish.ysl?igsh=MTA0ZWViemNpMTY0Zg%3D%3D&utm_source=qr" target="_blank" rel="noreferrer">
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="5" y="5" width="14" height="14" rx="4"/><circle cx="12" cy="12" r="3"/><circle cx="16.5" cy="7.5" r="1"/></svg>
+            </span>
+            Instagram
+          </a>
+        </div>
+      </div>
+      <button class="donate-button large" type="button" data-donate>Support This Artist</button>
+    </section>
+  </main>
+
+  <div class="modal" id="donateModal" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="donateTitle">
+      <button class="modal-close" type="button" id="closeDonate" aria-label="Close donation panel">x</button>
+      <h2 id="donateTitle">Support your underground artist</h2>
+      <p>Scan the QR or open UPI to donate directly.</p>
+      <img src="assets/pics/photo-qr.jpeg" alt="UPI QR code for AstroManish">
+      <a class="upi-link" href="upi://pay?pa=astro2004@ptyes&pn=AstroManish&cu=INR">Open UPI App</a>
+      <p class="upi-id">UPI ID: astro2004@ptyes</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
